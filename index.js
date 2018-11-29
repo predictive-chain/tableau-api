@@ -1861,13 +1861,13 @@ ss.initClass(ss_Lazy, ss, {
 ////////////////////////////////////////////////////////////////////////////////
 
 
-//if (typeof(global.HTMLElement) === 'undefined') {
-//  global.HTMLElement = Element;
-//}
+if (typeof(global.HTMLElement) === 'undefined') {
+  global.HTMLElement = Element;
+}
 
-//if (typeof(global.MessageEvent) === 'undefined') {
-//  global.MessageEvent = Event;
-//}
+if (typeof(global.MessageEvent) === 'undefined') {
+  global.MessageEvent = Event;
+}
 
 // polyfill for IE8 not having Date.now.
 Date.now = Date.now || function() { return +new Date; };
