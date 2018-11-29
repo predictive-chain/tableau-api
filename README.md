@@ -6,21 +6,30 @@ wrapped as an NPM module.
 
 ## Usage
 
-To use this module:
+To use this module include this in 'packages.json':
 
-    npm install --save tableau-api
+```
+  "dependencies": {
+    "tableau-api": "git://github.com/ilyabo/tableau-api"
+  }
+```
 
 Then, require it in your code:
 
-    var tableau = require('tableau-api');
+```
+  var tableau = require('tableau-api');
+```
 
 Or import it directly:
 
-    import tableau from "tableau-api";
+```
+  import tableau from "tableau-api";
+```
 
 Once imported, you'll need to add it as follows:
 
-```javascript
+```
+  javascript
     initTableau() {
         const vizUrl =
             "https://public.tableau.com/views/VacationHome/VacationHome?:embed=y&:display_count=yes";
