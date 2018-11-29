@@ -1647,9 +1647,6 @@ var tableauSoftware = {};
         return this._value;
       }
     });
-    if (typeof global.HTMLElement === "undefined") {
-      global.HTMLElement = Element;
-    }
     if (typeof global.MessageEvent === "undefined") {
       global.MessageEvent = Event;
     }
