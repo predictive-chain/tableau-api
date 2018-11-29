@@ -10,7 +10,7 @@ To use this module include this in 'packages.json':
 
 ```
   "dependencies": {
-    "tableau-api": "git://github.com/ilyabo/tableau-api"
+    "tableau-api": "git://github.com/predictive-chain/tableau-api"
   }
 ```
 
